@@ -68,13 +68,13 @@ class EventHelperClass {
     }
 
     /**
-     * removes event listener after beeing triggered ones
+     * removes event listener after beeing triggered once
      * @param  {Node}     element
      * @param  {String}   eventName
      * @param  {Function} callback
      * @param  {Object}   options
      */
-    ones(element, eventName, callback, options) {
+    once(element, eventName, callback, options) {
 
         this.add(element, eventName, (e) => {
             this.remove(element, eventName);
