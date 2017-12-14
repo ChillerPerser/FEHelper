@@ -43,6 +43,12 @@ class DomHelperClass {
         return null;
     }
 
+    /*
+    contains(container, node) {
+        return container.contains(node);
+    }
+    */
+
     /**
      * toggle class
      * @param  {Node} el

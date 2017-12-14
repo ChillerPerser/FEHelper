@@ -17,7 +17,7 @@ class HelperClass {
      * @return {Boolean}
      */
     isFunction(val) {
-        return (typeof val === 'function');
+        return (typeof(val) === 'function');
     }
 
     /**
@@ -27,7 +27,7 @@ class HelperClass {
      */
     isObject(val) {
         if (val === null) { return false; }
-        return ((isFunction(val)) || (typeof val === 'object'));
+        return ((isFunction(val)) || (typeof(val) === 'object'));
     }
 }
 
