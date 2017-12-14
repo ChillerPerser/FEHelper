@@ -1,16 +1,16 @@
 
-#FEHelper
+# FEHelper
 A collection of helper and other files to speed up the developing process while using ES6.
 
 Use each class by importing it.
 
-##AnimationHelper
+## AnimationHelper
 | Method | Description |
 | ------------- | ------------- |
 | skipTransition  | Skip the next transition by adding/remove a class before/after the change |
 
 
-##DomHelper
+## DomHelper
 | Method | Description |
 | ------------- | ------------- |
 | closest  | Content Cell |
@@ -20,7 +20,7 @@ Use each class by importing it.
 | outerHeight | Content Cell  |
 | outerWidth  | Content Cell  |
 
-##EventHelper
+## EventHelper
 | First Header | Description |
 | ------------- | ------------- |
 | add | Content Cell |
@@ -30,18 +30,18 @@ Use each class by importing it.
 | has | Content Cell  |
 | list | Content Cell  |
 
-##Generator
+## Generator
 | Method | Description |
 | ------------- | ------------- |
 | createRandomString | Content Cell |
 
-##Helper
+## Helper
 | Method | Description |
 | ------------- | ------------- |
 | isFunction | Content Cell |
 | isObject | Content Cell |
 
-##PositionHelper
+## PositionHelper
 | Method | Description |
 | ------------- | ------------- |
 | getScrollTop | Content Cell |
